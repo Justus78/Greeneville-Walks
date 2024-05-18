@@ -1,0 +1,229 @@
+/* CONTENTS
+    body
+    side navigation bar
+    quote box
+    images
+    containers
+    footer
+*/
+
+body {
+  text-align: center;
+  /*background-color: #faf1cf;
+  /* font-family: georgia; */
+}
+
+/* side navigation bar 
+#sideNav {
+  background: #007718;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5.5vw;
+  z-index: 1;
+}
+#sideNav ul {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#sideNav a {
+  border-bottom: 1px solid white;
+  color: white;
+  display: block;
+  font-size: 1.03vw;
+  padding: 30px 5px;
+  height: 60px;
+  text-decoration: none;
+}
+#sideNav .active {
+  background-color: #29A745;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/*styles for new navbar*/
+nav,
+.dropdown-menu {
+  background-color: #5daa68;
+}
+
+/* quote box */
+/*#quoteBox {
+  display: block;
+  font-size: 1.75vw;
+  font-style: Oblique;
+  text-shadow: 0.5px 0.5px #29a745;
+  margin: 1vw auto;
+  height: auto;
+  width: 85vw;
+}*/
+
+/* images */
+#doc {
+  height: 75%;
+  width: 90%;
+  margin-left: 130px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
+#amanda {
+  height: 75%;
+  width: 75%;
+  margin-left: 140px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
+#gunilla {
+  height: 75%;
+  width: 75%;
+  margin-left: 140px;
+  margin-top: 40px;
+  display: inline;
+  float: left;
+  clear: left;
+}
+#main {
+  height: 20vw;
+  /* width: 550px; */
+  margin: 10px 5vw;
+}
+#thumbnail {
+  height: 7%;
+  width: 7%;
+  padding: 10px 25px 0 25px;
+}
+.logo {
+  height: 25px;
+  width: 50px;
+}
+.sign {
+  height: 25px;
+  width: 25px;
+  padding-left: 5px;
+}
+/*trail navigation*/
+/*
+#trailLinks {
+  background-color: #007718;
+  height: 50px;
+  width: 60vw;
+  padding-top: 25px;
+  padding-bottom: 0;
+  margin-left: 300px;
+}
+#trailLinks a {
+  color: white;
+  padding: 25px 53px 33px 50px;
+  text-decoration: none;
+}
+#trailLinks .active {
+  background-color: lightgreen;
+  color: #007718;
+  font-weight: bold;
+}
+
+/* containers */
+/*.trails {
+  margin-top: 45px;
+}*/
+.openbtn {
+  display: none;
+}
+#aboutTeam {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: left;
+  justify-content: center;
+}
+#aboutStudents {
+  padding-top: 75px;
+}
+
+.about {
+  margin: 2vw auto 0 5vw;
+}
+/* h1 {
+    margin: 0 auto 0 120px;
+    font-size: 3vw;
+}*/
+/* h2 {
+font-style: Oblique;
+} */
+h3 {
+  margin: 15px auto 0 120px;
+  /* font-size: 1.5vw; */
+}
+/* p {
+  margin: 25px auto 0 125px;
+} */
+p a {
+  padding: 0 25px 0 25px;
+}
+
+/* footer */
+footer {
+  font-size: 8px;
+  margin: 25px auto 0 125px;
+  position: bottom;
+  text-align: center;
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+  #sideNav {
+    display: none;
+  }
+  #sideNav ul {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #sideNav a {
+    border-bottom: 1px solid white;
+    color: white;
+    display: block;
+    font-size: 1.03vw;
+    padding: 30px 5px;
+    height: 60px;
+    text-decoration: none;
+  }
+  #sideNav .active {
+    background-color: #29a745;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  #main {
+    height: 50vw;
+    /* width: 550px; */
+    /* margin: auto; */
+  }
+  .openbtn {
+    display: block;
+  }
+  .about {
+    font-size: 2vw;
+  }
+  .externalLinks {
+    font-size: 2vw;
+  }
+  h1 {
+    font-size: 4vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+
+  #quoteBox {
+    font-size: 3vw;
+    text-shadow: none;
+    /* text-shadow: 0.2px 0.2px #29A745; */
+  }
+}

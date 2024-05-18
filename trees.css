@@ -1,0 +1,177 @@
+/* Table of Contents */
+
+
+
+body{
+  text-align: center;
+}
+/* titleText */
+.scientificName{
+  font-style: oblique;
+  color: red;
+}
+.name{
+  margin-bottom: 0;
+}
+/*navigationLinks*/
+.navLinks, a{
+  color: #007718;
+  margin-top: 0;
+}
+
+/*images*/
+#main{
+  width: 33%;
+}
+
+/* Slideshow container */
+.slideshowBox {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow {
+  display: none;
+}
+
+/* numbers, dots, next & previous buttons*/
+.picNumber {
+  color: #007718;
+  font-size: auto ;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #007718;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: lightgreen;
+}
+.prev:hover, .next:hover {
+  color: lightgreen;
+}
+.prev, .next {
+  cursor: pointer;
+  color: #007788;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.infoLinks{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 150px 25px;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+/*
+.infoLinks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+*/
+.link1 p, .link2 p, .link3 p {
+  height: auto;
+  width: auto;
+  margin: 0.2rem;
+
+}
+
+.info{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  .name{
+    font-size: 4vw;
+  }
+  #main{
+    width: 55%;
+  }
+  
+  .infoLinks{
+    display: block;
+    text-align: left;
+  }
+  
+  .info{
+    font-size: 3vw;
+  }
+}
+
+/*styles for herbarium.php pictures*/
+.herbContainer{
+}
+
+.herbContainer div img{
+  margin: 10px 10px;
+  border: 8px solid rgb(252, 178, 60);
+}
+
+.picContainer1 {
+  margin-bottom: -5em;
+}
+
+.picContainer2 {
+  margin-bottom: 10em;
+}
+
+.hPic1 {
+transform: rotate(30deg);
+}
+.hPic2 {
+transform: rotate(-10deg);
+}
+.hPic3 {
+transform: rotate(16deg);
+}
+.hPic4 {
+transform: rotate(-14deg);
+}
+.hPic5 {
+transform: rotate(18deg);
+}
+.hPic6 {
+  margin-bottom: 10em;
+  transform: rotate(2deg);
+}
+.hPic7 {
+transform: rotate(-17deg);
+}
+.hPic8 {
+transform: rotate(30deg);
+}
