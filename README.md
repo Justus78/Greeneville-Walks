@@ -1,1 +1,3 @@
 # Greeneville-Walks
+
+The project is 2 two-person team project that was completed for school. The website is a static website that provides information on the trees and shrubs that are on the walking trails in Greeneville Tennessee. The client is Dr. Griffin, an associate professor at Walter State Community College. The site also contains a herbarium and symposium containing work from her students. 
